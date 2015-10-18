@@ -1,0 +1,110 @@
+.examples{
+    background-color:white;
+    float:left;
+    width:100%;
+    position:relative;
+    z-index:6;
+    height:1000px;
+}
+
+.examplesContent{
+    margin:auto;
+    margin-top:90px;
+    width:900px;
+    position:relative;
+}
+
+.mainText{
+    width:300px;
+    height:450px;
+    float:left;
+}
+
+.mainText .misisShop2 {
+    font-family: vtks;
+    font-size:125px;
+    margin-left:-10px;
+    margin-top:-35px;
+}
+
+.mainText .mainUl{
+    font-size:30px;
+    font-family:r;
+    padding:0;
+    list-style-image: url("http://localhost/webStudio/photo/marker2.png");
+    margin-left:20px;
+}
+
+.mainText .mainUl li{
+    margin-top:30px;
+}
+
+.mainSlider{
+    width:600px;
+    height:450px;
+    float:left;
+    position:relative;
+}
+
+.mainSlider .images{
+    width:100%;
+    height:100%;
+    background-size:160% 150%;
+    position:absolute;
+    background-position:45% 45%;
+}
+
+.points{
+    width:100px;
+    height:30px;
+    position:absolute;
+    top:93%;
+    left:45%;
+}
+
+.point{
+    width:14px;
+    height:14px;
+    background-color:#CCCCCC;
+    display:inline-block;
+    margin-left:15px;
+    margin-top:10px;
+    cursor:pointer;
+    border-radius:7px;
+}
+
+.points #first{
+    background-color:#565656;
+}
+
+.mainCatalog{
+    padding-top:50px;
+    margin-top:50px;
+    width:900px;
+    height:250px;
+    float:left;
+    border-top:5px solid dimgray;
+}
+
+.mainCatalog div{
+    width:200px;
+    height:250px;
+    float:left;
+    background-size:100% 100%;
+    margin-lefT:20px;
+}
+
+.mainCatalog div:first-child{
+    background-size:110% 100%;
+    background-position:top center;
+}
+
+.mainCatalog div:nth-child(2){
+    background-size:95% 100%;
+    background-position:top center;
+}
+
+.mainCatalog div:nth-child(3){
+    background-size:90% 100%;
+    background-position:top center;
+}

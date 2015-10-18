@@ -1,0 +1,126 @@
+.catalog{
+    background-color:white;
+    float:left;
+    width:100%;
+    position:relative;
+}
+
+.contentCatalog{
+    width:900px;
+    margin:auto;
+    margin-top:80px;
+    position:relative;
+}
+
+.unit{
+    margin-bottom:100px;
+    width:100%;
+    position:relative;
+    height:350px;
+}
+
+.imgCatalog{
+    width:30%;
+    height:350px;
+    background-color:white;
+    background-size:100% 100%;
+    float:left;
+}
+
+.unit1 .imgCatalog{
+    background-size:115% 100%;
+    background-position:top center;
+}
+
+.unit2 .imgCatalog{
+    background-size:93% 100%;
+    background-position:top center;
+}
+
+.unit4 .imgCatalog{
+    background-size:105% 100%;
+    background-position:top center;
+}
+
+.catalogForm{
+    margin-left:15%;
+    width:50%;
+    height:350px;
+    float:left;
+}
+
+.unitName{
+    font-size:23px;
+    text-align:center;
+    font-family:w;
+}
+
+.unitInfo{
+    margin-top:20px;
+    font-size:18px;
+    font-family:y;
+}
+
+.unitSize{
+    margin-top:20px;
+    width:25%;
+    position:relative;
+    border-collapse: collapse;
+    cursor:pointer;
+}
+
+.sizeText{
+    font-size:15px;
+}
+
+.unitPrice{
+    position:relative;
+    font-size:40px;
+    color: darkgray;
+    margin-top:15px;
+}
+
+.unitDelivery{
+    margin-top:15px;
+    font-size:18px;
+    font-family: y;
+}
+
+.sSize, .mSize, .lSize{
+    float:left;
+    padding-top:5px;
+    width:30px;
+    height:30px;
+    background-color:gray;
+    border:1px solid black;
+    text-align:center;
+    color:white;
+}
+
+.catalogButton {
+    margin-top:30px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: -1px -1px #000;
+    user-select: none;
+    padding: .8em 2em;
+    outline: none;
+    background-color: #000;
+    background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto;
+    background-position: 200% 0, 0 0;
+    box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+}
+
+.catalogButton:active {
+    top: 1px;
+    box-shadow: none;
+}
+
+.catalogButton:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0;
+}
